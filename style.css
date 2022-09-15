@@ -1,0 +1,27 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center!important;
+
+}
+
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 3em;
+	border-bottom : 2px solid pink;
+	width :500px;
+	text-align : center;
+}
+
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+	flex-direction: column;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
